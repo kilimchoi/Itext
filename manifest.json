@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "itext",
-  "description": "This extension demonstrates a browser action with kittens.",
+  "description": "Send any kinds of information to your phone.",
   "version": "1.0",
 
   "permissions": [
