@@ -2,6 +2,41 @@
 
 <html>
   <head>
-    <script src="popup.js"></script>
+  	<style>
+
+  		div:first-child {
+	      margin-top: 0px;
+	    }
+
+		div {
+        	cursor: pointer;
+         	text-align: center;
+         	padding: 1px 3px;
+         	font-family: sans-serif;
+         	font-size: 0.8em;
+         	width: 100px;	      
+         	margin-top: 1px;
+	    }
+
+	    div:hover {
+	    	background: #aaaaaa;
+	    }
+
+	    #enable { 
+	    	border: 1px solid green;
+	    	background: green;
+	    }
+
+	    #disable { 
+	    	border: 1px solid red;
+	    	background: red;
+	    }
+	    
+  	</style>
+    <script src="itext.js"></script>
   </head>
+  <body>
+  	<div id="enable">Enable</div>
+  	<div id="disable">Disable</div>
+  </body>
 </html>
